@@ -1,0 +1,75 @@
+html {
+  height: 100vh;
+  width: 100vh;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+textarea {
+  resize: none;
+}
+
+.site {
+  color: #ffff;
+  background: #0C0D17;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+}
+
+.site_conteudo_principal {
+  box-sizing: content-box;
+  height: 70vh;
+  width: 70vh;
+  border-radius: 5px;
+
+
+  background: #131524;
+
+  margin: 30%, 20%, 10%, 20%;
+  padding: 10%;
+
+  align-items: center;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.conteudo_caixadetexto {
+  width: 100%;
+  height: 10%;
+  border: none;
+  border-radius: 10px;
+  background: #20233d;
+  color: #ffff;
+
+  padding: 5%;
+  margin: 5%;
+  ;
+}
+
+.botoes {
+  width: 80%;
+  height: 30%;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.conteudo_botao {
+  width: 40%;
+  height: 30%;
+  padding: 5%;
+  background: #373D79;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 10px;
+  border: none;
+}
